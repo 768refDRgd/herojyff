@@ -1,0 +1,30 @@
+{
+  "name": "hy4dwchyr",
+  "description": "ujhd",
+  "keywords": [
+    "随便"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/app",
+      "required": true
+    }
+  },
+  "website": "https://github.com/hy4dwchyr/herojyff",
+  "repository": "https://github.com/hy4dwchyr/herojyff",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
